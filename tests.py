@@ -2,8 +2,8 @@ import unittest
 import threading
 
 
-from FiniteConsole.FiniteConsole import Program, Menu, Option
-from FiniteConsole.exceptions import ProgramExistsException, MenuExistsException, UndeterminedOption
+from src.FiniteConsole.FiniteConsole import Program, Menu, Option
+from src.FiniteConsole import ProgramExistsException, MenuExistsException, UndeterminedOption
 
 
 class TestProgram(unittest.TestCase):

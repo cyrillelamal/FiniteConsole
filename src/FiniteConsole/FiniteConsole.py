@@ -2,7 +2,7 @@
 Finite state machine framework simplifies creation of console applications.
 Describe your program with oriented graphs
 """
-from FiniteConsole.exceptions import ProgramExistsException, MenuExistsException, UndeterminedOption
+from .exceptions import ProgramExistsException, MenuExistsException, UndeterminedOption
 
 
 class Program:
